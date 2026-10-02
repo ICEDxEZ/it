@@ -5,14 +5,14 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: aliceblue;
+  background-color: white;
   color: black;
 }
 
 header {
-  background-color: navy;
+  background-color: #eeeeee;
   color: white;
-  padding: 18px 40px;
+  padding: 20px;
 }
 
 .brand {
@@ -22,7 +22,7 @@ header {
 }
 
 nav a {
-  color: white;
+  color: navy;
   font-weight: bold;
   margin-right: 18px;
   text-decoration: none;
@@ -33,7 +33,7 @@ nav a:hover {
 }
 
 main {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 30px 20px;
 }
@@ -42,8 +42,7 @@ main {
   display: flex;
   align-items: center;
   gap: 30px;
-  background-color: white;
-  padding: 30px;
+  padding: 20px 0;
 }
 
 .hero div {
@@ -97,8 +96,7 @@ button {
 
 .page-title,
 .section {
-  background-color: white;
-  padding: 24px;
+  padding: 10px 0;
   margin-bottom: 20px;
 }
 
@@ -154,9 +152,9 @@ iframe {
 }
 
 footer {
-  background-color: navy;
-  color: white;
-  padding: 18px 40px;
+  background-color: #eeeeee;
+  color: black;
+  padding: 20px;
   text-align: center;
 }
 
