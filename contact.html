@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Eliseys website for IT help.">
+  <meta name="keywords" content="contact, IT help, support form, email">
+  <meta name="author" content="Elisey">
+  <title>Eliseys Website - Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">Eliseys website</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="tips.html">Tips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-title">
+      <h1>Contact Us</h1>
+      <p>Send a question or request help with an IT problem.</p>
+    </div>
+
+    <div class="two-column">
+      <div class="section">
+        <h2>Contact Form</h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="problem">Problem Type</label>
+          <select id="problem" name="problem">
+            <option>Computer setup</option>
+            <option>Virus check</option>
+            <option>Wi-Fi support</option>
+            <option>Other</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="section">
+        <h2>Email and Map</h2>
+        <p>Email: <a href="mailto:elisey@example.com">elisey@example.com</a></p>
+        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=14.505%2C35.895%2C14.520%2C35.905&amp;layer=mapnik" title="Map of Malta"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Eliseys website</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com" class="social">f</a>
+      <a href="https://www.instagram.com" class="social">in</a>
+      <a href="https://www.youtube.com" class="social">yt</a>
+    </div>
+  </footer>
+</body>
+</html>

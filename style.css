@@ -4,23 +4,195 @@
 
 body {
   margin: 0;
-  min-height: 100vh;
   font-family: Arial, sans-serif;
-  background: #f4f7fb;
-  color: #1f2937;
+  background-color: aliceblue;
+  color: black;
 }
 
-.page {
-  min-height: 100vh;
+header {
+  background-color: navy;
+  color: white;
+  padding: 18px 40px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  margin-right: 18px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.hero {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 24px;
+  gap: 30px;
+  background-color: white;
+  padding: 30px;
+}
+
+.hero div {
+  flex: 1;
+}
+
+figure {
+  margin: 0;
   text-align: center;
 }
 
+figcaption {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 8px;
+}
+
 h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
+  color: navy;
+  font-size: 38px;
+  text-align: left;
+}
+
+h2 {
+  color: darkgreen;
+  font-size: 26px;
+  text-align: left;
+}
+
+p,
+li,
+td,
+th,
+label,
+input,
+textarea,
+select,
+button {
+  font-size: 16px;
+}
+
+.button,
+button {
+  background-color: darkgreen;
+  color: white;
+  border: 0;
+  padding: 12px 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.page-title,
+.section {
+  background-color: white;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.two-column {
+  display: flex;
+  gap: 20px;
+}
+
+.two-column .section {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: navy;
+  color: white;
+}
+
+th,
+td {
+  border: 1px solid gray;
+  padding: 12px;
+  text-align: left;
+}
+
+form {
+  display: block;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 14px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  font-family: Arial, sans-serif;
+}
+
+iframe {
+  width: 100%;
+  height: 260px;
+  border: 1px solid gray;
+}
+
+footer {
+  background-color: navy;
+  color: white;
+  padding: 18px 40px;
+  text-align: center;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 5px;
+  background-color: white;
+  color: navy;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    padding: 18px 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .hero,
+  .two-column {
+    display: block;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
 }
