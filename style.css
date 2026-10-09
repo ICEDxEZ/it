@@ -10,19 +10,20 @@ body {
 }
 
 header {
-  background-color: #eeeeee;
+  background-color: navy;
   color: white;
   padding: 20px;
 }
 
 .brand {
+  color: white;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 12px;
 }
 
 nav a {
-  color: navy;
+  color: white;
   font-weight: bold;
   margin-right: 18px;
   text-decoration: none;
